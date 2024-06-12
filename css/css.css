@@ -1,0 +1,673 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    color: #000000;
+	font-size: 18px;
+	
+}
+#container {
+    width: 110vw;
+    height: 184vh;
+}
+#container2 {
+    width: 110vw;
+    height: 118vh;
+}
+#container3 {
+	width: 110vw;
+    height: 191vh;
+}
+#container4 {
+	width: 110vw;
+	height: 100vh;
+}
+#container5 {
+	width: 110vw;
+	height: 114vh;
+}
+
+
+
+
+#banner {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../multimedia/imagenes/logo%20final%20proyecto.svg);
+    background-color: #FDFDFD;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 78%;
+    width: 78%;
+}
+
+header {
+    width: 110vw;
+    height: 10vh;
+    float: left;
+    position: fixed;
+    top: 0px;
+    z-index: 50;
+    display: grid;
+    grid-template-columns: 30vw 80vw;
+    background-color: #FFFFFF;
+}
+hedear  nav {
+	position: fixed;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 10vh;
+    padding-right: 30vh;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 2vh;
+	padding-left: 40px;
+	width: 15%;
+	text-align: center;
+}
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 100;
+    font-style: normal;
+	font-size: 20px;
+  font-family: "Abril Fatface", serif;
+	display: block;
+}
+.vin1:hover {
+	background-color:#a1d6dc;
+	 display: block;
+	color:#000000;
+}
+
+
+a {
+    text-decoration: none;
+}
+h1 {
+    color: #a1d6dc;
+	padding-top: 60px;
+	text-align: center;
+    font-size: 60px;
+	font-family: "Abril Fatface", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+p {
+    padding-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+}
+#art1 h1 {
+	padding-left: 28vh;
+	font-size: 80px;
+}
+#art2 p {
+    padding-right: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 22px;
+    margin-left: 60px;
+    margin-right: 80px;
+    margin-top: 60px;
+    text-align: center;
+}
+#art3 h1  {
+	padding-left: 65vh;
+	padding-bottom: 15px;
+}
+#art7 p {
+	font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 22px;
+    text-align: center;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+#art8 p {
+	font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+	
+	font-size: 22px;
+    text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+
+#inicio {
+	margin-top:11vh;
+}
+#adopcion {
+	margin-top:11vh;
+}
+.adopt-dog {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: -10px;
+}
+.adopt-dog h2 {
+  color: #9dd1c0;
+	text-align: center;
+    font-size: 60px;
+	font-family: "Abril Fatface", serif;
+	font-weight: 400;
+	font-style: normal;
+  margin-bottom: 50px;
+}
+.requirements {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.requirements li {
+  display: inline-block;
+  margin-right: 120px;
+
+}
+.fa-solid.fa-handshake-simple {
+	color: #f18b72;
+}
+.fa-solid.fa-hand-holding-dollar {
+	color: #f18b72;
+}
+.fa-solid.fa-heart {
+	color: #f18b72;
+}
+#adopcion .art { 
+	float: left;
+	width: 100%;
+}
+
+
+#productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5px;
+    float: left;
+	justify-content: center;
+}
+.producto {
+    padding: 20px;
+	padding-left:18vh;
+	padding-top: 40px;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+.producto h2 {
+    margin-bottom:  5px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+
+#contentItemCarrusel {
+	height: 43vh;
+	overflow:hidden;
+	padding-top: 10px;
+	justify-content: center;
+	padding-left: 30vh;
+	padding-right: 30vh;
+	
+	
+}
+#contentItemCarrusel_2 {
+	height: 43vh;
+	overflow:hidden;
+	padding-top: 10px;
+	justify-content: center;
+	padding-left: 30vh;
+	padding-right: 30vh;
+}
+#contentItemCarrusel_3 {
+	height: 43vh;
+	overflow:hidden;
+	padding-top: 10px;
+	justify-content: center;
+	padding-left: 30vh;
+	padding-right: 30vh;
+}
+
+.itemCarrusel {
+	height: 43vh;
+	position: relative;
+}
+
+.flechasCarrusel {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+.tarjetaCarrusel {
+	height: 100%;
+}
+.fa-solid.fa-angle-right {
+	color: #FFFFFF;
+}
+.fa-solid.fa-angle-left {
+	color: #FFFFFF;
+}
+
+#tarjetaCarrusel-1 {
+	background-color: #FFFFFF;
+}
+#tarjetaCarrusel-1 img {
+	width: 100%;
+	height: 100%;
+}
+#tarjetaCarrusel-2 {
+    background-color: #FFFFFF ;
+}
+#tarjetaCarrusel-2 img {
+	width: 100%;
+	height: auto;
+}
+#tarjetaCarrusel-3 {
+    background-color: #FFFFFF;
+}
+#tarjetaCarrusel-3 img {
+	width:100%;
+	height: 100%;
+}
+#tarjetaCarrusel-4{
+	background-color: #FFFFFF;
+}
+#tarjetaCarrusel-4 img {
+	width: 100%;
+	height: 100%;
+}
+#tarjetaCarrusel-5 {
+    background-color: #FFFFFF ;
+}
+#tarjetaCarrusel-5 img {
+	width: 100%;
+	height: auto;
+}
+#tarjetaCarrusel-6 {
+    background-color: #FFFFFF;
+}
+#tarjetaCarrusel-6 img {
+	width:100%;
+	height: 100%;		
+	}
+#tarjetaCarrusel-7 {
+    background-color: #FFFFFF;
+}
+#tarjetaCarrusel-7 img {
+	width:100%;
+	height: 100%;		
+	}
+#tarjetaCarrusel-8 {
+    background-color: #FFFFFF;
+}
+#tarjetaCarrusel-8 img {
+	width:100%;
+	height: 100%;		
+	}
+#tarjetaCarrusel-9 {
+    background-color: #FFFFFF;
+}
+#tarjetaCarrusel-9 img {
+	width:100%;
+	height: 100%;		
+	}
+
+#contePuntos {
+	display: flex;
+	justify-content: center;
+	
+}
+#contePuntos a {
+    font-size: 180px;
+    text-decoration: none;
+	margin-top: -115px;
+	 color: #a1d6dc;
+}
+
+
+
+.art {
+    float: left;
+}
+#art1 {
+    float: left;
+    width: 30%;
+    height: 20vh;
+	padding-bottom: 20px;
+   
+}
+#art2 {
+    color: #000000;
+    text-align: right;
+    float: left;
+    width: 70%;
+    height: 20vh; 
+	padding-bottom: 20px;
+	
+}
+#art3 {
+    float: left;
+	
+	
+}
+#art4 {
+    float: left;
+    background-color: #a1d6dc;
+	height: 24vh;
+}
+#art5 {
+    float: left;
+	height: 24vh;
+}
+#art6 {
+    float: left;
+	background-color: #f085a7;
+	height: 24vh;
+}
+#art7 {
+    float: left;
+}
+#art8 {
+	float: left;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	justify-content: center;
+}
+
+
+
+.alianzas_espacio  {
+	
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.texto_1 {
+	padding-top:  40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0C2337;
+	padding-left: 50px;
+}
+.texto_2 {
+	padding-top:  60px;
+    padding-left: 10px;
+	padding-right: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.texto_3 {
+	padding-top:  40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F085A7;
+	padding-left: 60px;
+}
+.texto_4 {
+	padding-top:  40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+	padding-right: 30px;
+	padding-left: 80px;
+}
+
+
+.botones {
+    height: 16vh;
+    float: left;
+	margin-left: 38vh;
+	margin-top: 35px;;
+}
+.botones a {
+    text-decoration: none;
+	color: #f085a7;
+}
+.botones a:hover {
+	background-color: #87ceeb;
+      color: #fff;
+      cursor: pointer;	
+}
+.button {
+    background-color: #fff;
+    border: 5px solid #87ceeb;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f085a7;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    transition: all 0.3s ease;
+    }
+.button:hover {
+      background-color: #87ceeb;
+      color: #fff;
+      cursor: pointer;
+    }
+
+
+.video .position {
+    width: 100%;
+    float: left;
+    height: 60vh;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	
+}
+
+.logo_forms {
+	margin-top:11vh;
+	width: 40%;
+	height: 69vh;
+	float: left;
+	
+}
+.logo_forms .logo {
+	padding-top: 40px;
+	padding-left: 200px;
+}
+
+.formulario {
+	margin-top:11vh;
+	width: 60%;
+	height: 69vh;
+	float: left;
+}
+.forms {
+	padding-top: 16vh;
+	padding-right: 220px;
+}
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 700px;
+    /* To see the limits of the form */
+    padding: 1em;
+    border: 2px solid #f18b72;
+    border-radius: 1em;
+}
+div + div {
+  margin-top: 1em;
+}
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 110px;
+  text-align: right;
+}
+.text_forms label {
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+	font-size: 16px;
+    padding-right: 20px;
+	text-align: center;
+}
+input,
+textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1em sans-serif;
+  /* To give the same size to all text field */
+  width: 500px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+input:focus,
+textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+  /* To give enough room to type some text */
+  height: 5em;
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+.botones_2 {
+	padding-left: 250px;
+}
+.button_2 {
+    background-color: #fff;
+    border: 3px solid #87ceeb;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #f085a7;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    transition: all 0.3s ease;
+	justify-content: center;
+    }
+.button_2:hover {
+    background-color: #87ceeb;
+    color: #fff;
+    cursor: pointer;
+    }
+.botones_2 a {
+	text-decoration: none;
+	color: #f085a7;
+}
+.botones_2 a:hover {
+	background-color: #87ceeb;
+      color: #fff;
+      cursor: pointer;	
+}
+
+
+footer {
+	padding: 5px;
+    text-align: center;
+    float: left;
+    height: 20vh;
+    width: 100%;
+    background-image: url(../multimedia/imagenes/pattern.svg);
+   background-size: cover;
+}
+footer a {
+    color: #f085a7;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.containerFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.column h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #a1d6dc;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+.social-links a {
+    margin: 0 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f085a7;	
+  
+
+		
+	}
